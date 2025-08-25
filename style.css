@@ -1,9 +1,70 @@
-body{
-	background-image: url("imagens/logo.png");
-	background-repeat: no-repeat;
-	right: 1000px;
-	display: flex;
-	
-
-	
+body {
+  background: black;
 }
+
+section, h1 {
+  display: flex;
+  font-family: Sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  gap: 250px;
+  
+}
+
+.logo {
+  width: 100px;
+  margin: 30px;
+}
+
+
+.oficina {
+  width: 300px;
+  padding: 30px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  
+
+}
+
+a {
+  color: white;
+    
+}
+
+article {
+  padding: 50px;
+  color: white;
+  font-family: san-serif;
+  
+  
+}
+  
+header {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cooper;
+}
+
+footer {
+  display: flex;
+  color: white;
+  gap: 700px;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.rodape {
+  width: 70px;
+ 
+}
+
