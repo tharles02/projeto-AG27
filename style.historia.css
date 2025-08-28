@@ -119,11 +119,13 @@ article {
 
 p {
 	color: white;
+	padding-top: 
 }
 
 main {
 	display: flex;	
 	background-color: black;
+	justify-content: center;
 }
 
 .inicio {
@@ -146,17 +148,43 @@ main {
 }
 
 footer {
-  display: flex;
-  background-color: black;
-  gap: 700px;
-  padding: 10px;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+    background-color: red;
+	gap: 700px;
+	font-family: san serif;
+	
     
 }
 
-.rodape {
-  
-  width: 100px;
-  margin: 30px;
+.logorodape {
+	width: 200px;
+	margin: 30px;
 }
+
+.rodape {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 20px;
+	
+}
+
+.texto {
+	display: flex;
+	justify-content: center;
+	gap: 40px;	
+	padding: 10px;
+}
+
+.leis {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	padding: 10px;
+}
+
+
 
 
