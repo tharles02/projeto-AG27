@@ -1,0 +1,79 @@
+
+.challenge{
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
+}
+
+/* 
+ Seção de cartões 
+ <section>
+*/
+.courses {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Cartão Individual */
+.course {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px black;
+  background: white;
+  flex-grow: 0;
+  flex-shrink: 1;
+  /* Utilizamos a função calc para calcular a largura*/
+  flex-basis: calc(33.33% - (40px * 2));
+}
+
+.course-image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.course-category {
+  background: black;
+  color: white;
+  margin-top: 1em;
+  display: inline-block;
+  border-radius: 5px;
+  padding: .5em;
+}
+
+.course:hover{
+  background-color: red;
+  transform: scale(1.1);
+  transition-property: transform;
+}
+
+/* Media query */
+@media (max-width: 600px) {
+  .course {
+    background: orange;
+    flex-basis: 100%;
+  }
+}
+
+/* Media query */
+@media (min-width: 600px) and (max-width: 1200px) {
+  .course {
+    background: blue;
+    flex-basis: 36%;
+  }
+}
