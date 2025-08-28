@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 .challenge{
   color: white;
+  text-align: center;
+}
+
+h1{
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 body {
@@ -15,12 +25,9 @@ main {
 .link {
   text-decoration: none;
   color: blue;
+  
 }
 
-/* 
- Seção de cartões 
- <section>
-*/
 .courses {
   display: flex;
   gap: 40px;
@@ -28,7 +35,6 @@ main {
   flex-wrap: wrap;
 }
 
-/* Cartão Individual */
 .course {
   border: 1px solid #000;
   border-radius: 20px;
@@ -37,11 +43,10 @@ main {
   background: white;
   flex-grow: 0;
   flex-shrink: 1;
-  /* Utilizamos a função calc para calcular a largura*/
   flex-basis: calc(33.33% - (40px * 2));
 }
 
-.course-image {
+.course-video{
   display: block;
   width: 100%;
   border-radius: 10px;
@@ -54,6 +59,8 @@ main {
   display: inline-block;
   border-radius: 5px;
   padding: .5em;
+  font-family: "Bungee", sans-serif;
+  
 }
 
 .course:hover{
@@ -62,7 +69,6 @@ main {
   transition-property: transform;
 }
 
-/* Media query */
 @media (max-width: 600px) {
   .course {
     background: orange;
@@ -70,10 +76,9 @@ main {
   }
 }
 
-/* Media query */
 @media (min-width: 600px) and (max-width: 1200px) {
   .course {
-    background: blue;
+    background: white;
     flex-basis: 36%;
   }
 }
