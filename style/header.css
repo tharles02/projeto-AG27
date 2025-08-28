@@ -3,10 +3,12 @@
 
 :root {
   --gray: #bbb;
+  --red: #DC143C;
 }
 
 body {
-  margin: 0px;
+	margin: 0px;
+	background: linear-gradient(0.25turn, #DC143C, #000000, #000000, #DC143C);
   
   
 }
@@ -18,20 +20,27 @@ header {
   font-family: "Oswald", sans-serif;
   overflow: hidden;
   z-index: 1;
+  
+  
+  
+  
 }
 
 h1 {
   height: auto;
   text-align: center;
-  color: black;
   background-color: black;
   margin: 0;
+  color: var(--gray);
   padding: .5em;
   text-transform: uppercase;
   font-style: italic;
-  color: var(--gray);
   font-weight: 700;
   font-size: 25px;
+ 
+
+  
+
 }
 
 nav {
@@ -49,7 +58,7 @@ nav {
  
 }
 
-.bg {
+.block-color {
 	height: 83px;
 	width: 100%;
 	z-index: 0;
@@ -76,12 +85,14 @@ nav {
 }
 
 .menu > p {
-  color: white;
-  font-size: 20px;
-  padding: 5px;
-  border-bottom: 3px solid rgba(0,0,0,0);
-  font-family: "Oswald", sans-serif;
-  color: var(--gray);
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	border-bottom: 3px solid rgba(0,0,0,0);
+	font-family: "Oswald", sans-serif;
+	color: var(--gray);
+	transition-property: transform;
+	transition-duration: 0.5s;
 
 
 
@@ -101,7 +112,12 @@ nav:hover {
 	transition-property: background;
 	transition-duration: 1s;
 	color: var(--gray);
-
+	
+	p {
+		transform: scale(1.1);
+		transition-property: transform;
+		transition-duration: 0.5s;
+	}
 }
 
 .menu p:hover {
