@@ -1,0 +1,39 @@
+
+footer {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+    background-color: red;
+	gap: 700px;
+	font-family: san serif;
+	padding: 20px;
+	
+    
+}
+
+.logorodape {
+	width: 200px;
+	margin: 30px;
+}
+
+.rodape {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 20px;
+	
+}
+
+.texto {
+	display: flex;
+	justify-content: center;
+	gap: 40px;	
+	padding: 10px;
+}
+
+.leis {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	padding: 10px;
+}
