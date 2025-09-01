@@ -154,6 +154,7 @@ footer {
     background-color: red;
 	gap: 700px;
 	font-family: san serif;
+	padding: 20px;
 	
     
 }
@@ -184,6 +185,25 @@ footer {
 	gap: 50px;
 	padding: 10px;
 }
+
+/* Media query */
+@media (max-width: 1200px) and (min-width: 600px) {
+  .inicio {
+	  
+	  
+/* Media query */
+@media (max-width: 1200px) and (min-width: 600px) {
+  .processo {
+	  
+	  
+/* Media query */
+@media (max-width: 1200px) and (min-width: 600px) {
+  .top {
+	  
+	  /* Media query */
+@media (max-width: 1200px) and (min-width: 600px) {
+  .footer {
+	  
 
 
 
