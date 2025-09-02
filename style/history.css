@@ -17,18 +17,18 @@ main {
 }
 
 .inicio {
-	padding: 10px;
+	padding: 5px;
 	width: 400px;	
 }
 
 .processo {
-	padding: 10px;
+	padding: 5px;
 	width: 400px;
 	
 }
 
 .top {
-	padding: 10px;
+	padding: 5px;
 	width: 400px;
 	
 }
@@ -39,17 +39,15 @@ footer {
 	text-align: center;
     background-color: black;	
 	font-family: san-serif;
-	padding: 0;    
+	  
 }
 
 
 .logofooter {
-	width: 200px;
-	margin: 0px;
+	width: 150px;
+	
 		
 }
-
-	
 
 .rodape {
 	display: flex;
