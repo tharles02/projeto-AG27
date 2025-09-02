@@ -36,15 +36,15 @@ h1 {
 
 nav {
 	width: 100%;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  align-items: center;
-  transition-property: background;
-  transition-duration: 1s;
-  z-index: 3;
-  background-color: rgba(0,0,0,1);
-  position: absolute;
+	  display: flex;
+	  justify-content: space-between;
+	  overflow: hidden;
+	  align-items: center;
+	  transition-property: background;
+	  transition-duration: 1s;
+	  z-index: 3;
+	  background-color: rgba(0,0,0,1);
+	  position: absolute;
   
  
 }
@@ -149,27 +149,28 @@ main {
 
 footer {
 	width: 100%;
-	height: 500px;
+	height: 300px;
 	text-align: center;
-    background-color: red;
+    background-color: #DC143C;
 	gap: 700px;
 	font-family: san serif;
-	padding: 20px;
-	
-    
+	padding: 20px;    
 }
 
-.logorodape {
+
+.logofooter {
 	width: 200px;
-	margin: 30px;
+	margin: 0px;
+		
 }
+
+	
 
 .rodape {
 	display: flex;
 	gap: 20px;
 	justify-content: center;
 	padding: 20px;
-	
 }
 
 .texto {
@@ -177,6 +178,7 @@ footer {
 	justify-content: center;
 	gap: 40px;	
 	padding: 10px;
+	mix-blend-mode: multiplay;
 }
 
 .leis {
@@ -186,23 +188,7 @@ footer {
 	padding: 10px;
 }
 
-/* Media query */
-@media (max-width: 1200px) and (min-width: 600px) {
-  .inicio {
-	  
-	  
-/* Media query */
-@media (max-width: 1200px) and (min-width: 600px) {
-  .processo {
-	  
-	  
-/* Media query */
-@media (max-width: 1200px) and (min-width: 600px) {
-  .top {
-	  
-	  /* Media query */
-@media (max-width: 1200px) and (min-width: 600px) {
-  .footer {
+
 	  
 
 
