@@ -1,0 +1,99 @@
+  
+article {
+	background-color: black;
+	padding: 100px;	
+	
+}
+
+p {
+	color: white;
+	 
+}
+
+main {
+	display: flex;	
+	background-color: black;
+	justify-content: center;
+}
+
+.inicio {
+	padding: 10px;
+	width: 400px;	
+}
+
+.processo {
+	padding: 10px;
+	width: 400px;
+	
+}
+
+.top {
+	padding: 10px;
+	width: 400px;
+	
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+    background-color: black;	
+	font-family: san-serif;
+	padding: 0;    
+}
+
+
+.logofooter {
+	width: 200px;
+	margin: 0px;
+		
+}
+
+	
+
+.rodape {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 10px;
+}
+
+.texto {
+	display: flex;
+	justify-content: center;
+	gap: 40px;	
+	padding: 0;
+	
+}
+
+.leis {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	padding: 10px;
+}
+
+@media (max-width: 430px) {
+  .inicio, .processo, .top1 {
+	background: red;  
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 1280px) {
+  .inicio, .processo, .top1 {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer {
+    flex-basis: 36%;
+  }
+}
+
+	  
+
+
+
+
