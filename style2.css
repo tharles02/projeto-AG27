@@ -1,25 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+:root {
+  --gray: #bbb;
+}
+
 .challenge{
   color: white;
   text-align: center;
+  padding: 150px;	
+  font-family: "Bungee", sans-serif;
+  padding-right: 20px;
+  padding-left: 50px;
+  padding-bottom: 50px;
 }
-
-h1{
+	
+h2{
   font-family: "Bungee", sans-serif;
   font-weight: 400;
   font-style: normal;
-
+  color: white;
 }
 
-body {
-  background-color: black;
+h3{
+  color: white;
+  font-family: "Bungee", sans-serif;
 }
 
 main {
   width: 80%;
   margin: 0 auto;
+  
 }
 
 .link {
@@ -30,7 +41,7 @@ main {
 
 .courses {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -39,11 +50,12 @@ main {
   border: 1px solid #000;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 10px 10px black;
-  background: white;
+  box-shadow: 0px 10px 10px #000000;
+  background: red;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: calc(33.33% - (40px * 2));
+ 
 }
 
 .course-video{
@@ -60,6 +72,7 @@ main {
   border-radius: 5px;
   padding: .5em;
   font-family: "Bungee", sans-serif;
+  box-shadow:  0px 10px 20px #D3D3D3;
   
 }
 
@@ -67,18 +80,33 @@ main {
   background-color: red;
   transform: scale(1.1);
   transition-property: transform;
+
 }
 
 @media (max-width: 600px) {
   .course {
-    background: orange;
-    flex-basis: 100%;
+    background: red;
+    flex-basis: 43%;
+	
+	
   }
+  
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .course {
-    background: white;
+    background: red;
     flex-basis: 36%;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .challenge {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
   }
 }
