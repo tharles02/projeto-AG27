@@ -17,21 +17,29 @@ main {
 }
 
 .inicio {
+	width: 300px;
+    border: 1px solid #000;
+	border-radius: 20px;
 	padding: 5px;
-	width: 400px;	
+	box-shadow: 10px 10px black;
+	background: #fff;
+	flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
+	flex-shrink: 0;
+	flex-basis: 25%;	
 }
 
 .processo {
+	width: 300px;
 	padding: 5px;
-	width: 400px;
-	
+    border: 1px solid #000;
+	border-radius: 20px;
+	box-shadow: 10px 10px black;
+	background: #fff;
+	flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
+	flex-shrink: 0;
+	flex-basis: 25%;	
 }
-
-.top {
-	padding: 5px;
-	width: 400px;
-	
-}
+		
 
 footer {
 	width: 100%;
