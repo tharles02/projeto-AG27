@@ -30,7 +30,7 @@ h1 {
   height: auto;
   text-align: center;
   background-color: black;
-  margin: 0;
+  margin: auto;
   color: var(--gray);
   padding: .5em;
   text-transform: uppercase;
