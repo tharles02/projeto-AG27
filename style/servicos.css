@@ -32,13 +32,11 @@ h3{
 main {
   width: 80%;
   margin: 0 auto;
-  
 }
 
 .link {
   text-decoration: none;
   color: blue;
-  
 }
 
 .courses {
@@ -57,7 +55,6 @@ main {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: calc(33.33% - (40px * 2));
- 
 }
 
 .course-video{
@@ -75,24 +72,19 @@ main {
   padding: .5em;
   font-family: "Bungee", sans-serif;
   box-shadow:  0px 10px 20px #D3D3D3;
-  
 }
 
 .course:hover{
   background-color: red;
   transform: scale(1.1);
   transition-property: transform;
-
 }
 
 @media (max-width: 600px) {
   .course {
     background: red;
     flex-basis: 43%;
-	
-	
   }
-  
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {

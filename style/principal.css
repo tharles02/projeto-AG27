@@ -6,8 +6,6 @@
 	align-items: center;
 	font-family: "Oswald", sans-serif;
 	background: linear-gradient(0.25turn, #000000, #DC143C, #DC143C, #000000);
-
-	
 }
 
 
@@ -23,8 +21,7 @@
 	margin: 0px;
 	border: 0px;
 	color: #ccc;
-	font-style: italic;
-		
+	font-style: italic;	
 }
 
 .slogan {
@@ -65,22 +62,17 @@
 	display: flex;
 	width: 80%;
 	flex-wrap: wrap;
-	
 }
 
 .more-products:hover {
-	
 	.container-main-cards {
 		gap: 40px;
 	}
 	.main-card {
 		margin: 0;
-		box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px, rgba(255, 0, 0, 0.12) 0px -12px 30px, rgba(255, 0, 0, 0.12) 0px 4px 6px, rgba(255, 0, 0, 0.17) 0px 12px 13px, rgba(255, 0, 0, 0.09) 0px -3px 5px
-		
+		box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px, rgba(255, 0, 0, 0.12) 0px -12px 30px, rgba(255, 0, 0, 0.12) 0px 4px 6px, rgba(255, 0, 0, 0.17) 0px 12px 13px, rgba(255, 0, 0, 0.09) 0px -3px 5px;
 	}
 }
-
-
 
 .main-card {
 	width: 300px;
@@ -104,8 +96,6 @@
 	transition: .4s;
 	transform: scale(1.1);
 	box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px !important;
-	
-	
 }
 
 .image-card {
@@ -129,8 +119,6 @@
 	margin: 0px;
 	font-family: 'Oswald', sans-serif;
 	color: #ccc;
-
-
 }
 
 .container-car {
@@ -163,7 +151,6 @@
 	justify-content: center;	
 	background-color: black;
 	box-shadow: rgba(255, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(255, 0, 0, 0.3) 0px 18px 36px -18px inset;
-	
 }
 
 .main-service h2{
@@ -176,8 +163,6 @@
 	text-transform: uppercase;
 	font-style: italic;
 	font-family: "Oswald", sans-serif;
-
-
 }
 
 .container-cards1 {
@@ -188,7 +173,6 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 
@@ -215,7 +199,6 @@
 	.block-style h2 {
 		transition-duration: 1s;
 		opacity: 0.9;
-
 	}
 }
 
@@ -227,7 +210,6 @@
 	padding-bottom: 80px;
 	font-family: 'Oswald', sans-serif;
 	opacity: 0;
-
 }
 
 .cards-car img {
@@ -235,7 +217,6 @@
 	margin-top: -80px;
 	transition-property: transform;
 	transition-duration: 1s;
-	
 }
 
 .cards-car img:hover {
@@ -244,7 +225,6 @@
 	transform: scale(1.3);
 	transition-property: transform;
 	transition-duration: .3s;
-	
 }
 
 .block-style {
@@ -256,7 +236,6 @@
 	position: clip;
 	z-index: 4;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-	
 }
 
 
