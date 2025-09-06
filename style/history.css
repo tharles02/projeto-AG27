@@ -36,8 +36,16 @@ main {
 	height: 90%;
 	border-radius: 15px;
 	box-shadow: #f7f3f3;
+	filter: grayscale(1);
+	transition: 0.2s ease;
+	cursor:pointer;
+	-webrit-box-reflect: below 0 linear-gradient
+	(transparent, #0006)
 }
-	
+
+.cards img:hover {
+	filter: grayscale(0);
+}	
 		
 footer {
 	width: 100%;
