@@ -35,16 +35,16 @@ main {
 	width: 20%;
 	height: 90%;
 	border-radius: 15px;
-	box-shadow: #f7f3f3;
+	box-shadow: 8px 8px 1px 1px rgba(12, 12, 12, 0.986);
 	filter: grayscale(1);
 	transition: 0.2s ease;
 	cursor:pointer;
-	-webrit-box-reflect: below 0 linear-gradient
-	(transparent, #0006)
 }
 
 .cards img:hover {
 	filter: grayscale(0);
+	transform: translateY(-1rem);
+	
 }	
 		
 footer {
