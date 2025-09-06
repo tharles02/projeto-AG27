@@ -10,7 +10,7 @@
 
 body {
 	margin: 0px;
-	background: linear-gradient(0.25turn, #DC143C, #000000, #000000, #DC143C);
+  background-color: #000000;  
 }
 
 header {
