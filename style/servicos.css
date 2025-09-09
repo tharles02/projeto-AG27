@@ -3,6 +3,11 @@
 	font-family: Oswald;
 		src: url(/fonts/Oswald.ttf);
 }
+
+body{
+	/*gradiente do corpo*/
+	background: linear-gradient(0.25turn, #DC143C, #000000, #000000, #DC143C);
+}  
 :root {
   --gray: #bbb;
 }
