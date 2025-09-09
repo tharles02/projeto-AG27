@@ -41,8 +41,14 @@ main {
 
 .link {
   text-decoration: none;
-  color: blue;
+  color: white;
 }
+
+strong{
+  color: blue;
+
+}
+
 
 .courses {
   display: flex;
