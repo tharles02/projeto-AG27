@@ -98,22 +98,24 @@ footer {
 
 
 /*media query*/
-@media screen and (max-width: 1020px){
+@media screen (min-width: 430px) and (max-width: 1020px){
 	/*cabeçario*/
 	.menu {
 		display: none;
 	}
 	
-	
 	.block-color {
 		flex-direction: column;
-		
-		
 	}
+
 /*cards*/
 	.cards {
 		flex-direction: column;
 		height: 1020px;		
+	}
+
+	footer {
+		flex-direction: column;
 	}
 }
 
